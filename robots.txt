@@ -1,0 +1,11 @@
+# PFC - Paolo Fia Cartongesso
+# robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.paolofiacartongessi.com/sitemap.xml
+
+# Blocca cartelle non necessarie
+Disallow: /docs/
