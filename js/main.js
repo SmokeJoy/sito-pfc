@@ -126,6 +126,55 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ========================================
+    // Professional Lightbox
+    // ========================================
+    const lightbox = document.createElement('div');
+    lightbox.className = 'lightbox';
+    lightbox.innerHTML = `
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-img" src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+    `;
+    document.body.appendChild(lightbox);
+
+    const lightboxImg = lightbox.querySelector('.lightbox-img');
+    const lightboxCaption = lightbox.querySelector('.lightbox-caption');
+    const lightboxClose = lightbox.querySelector('.lightbox-close');
+
+    document.querySelectorAll('.portfolio-item').forEach(item => {
+        item.addEventListener('click', function() {
+            const img = this.querySelector('img');
+            const title = this.querySelector('h4').textContent;
+            
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            lightboxCaption.textContent = title;
+            
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Prevent scroll
+        });
+    });
+
+    const closeLightbox = () => {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    };
+
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+    });
+
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
+
+    // ========================================
     // Console welcome message
     // ========================================
     console.log('%c PFC - Paolo Fia Cartongesso ', 'background: #1a5f7a; color: white; padding: 10px; font-size: 16px;');
