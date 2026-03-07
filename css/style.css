@@ -102,6 +102,10 @@ body {
   line-height: 1.6;
   color: var(--color-text);
   background-color: var(--color-bg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../images/main-bg.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -200,7 +204,10 @@ p {
 }
 
 .section-alt {
-  background-color: var(--color-bg-alt);
+  background-color: rgba(248, 249, 250, 0.7);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 /* ----------------------------------------
@@ -393,8 +400,26 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('../images/hero/hero-bg.jpg') center/cover no-repeat;
-  opacity: 0.3;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero/hero-home.jpg') center/cover no-repeat;
+  opacity: 1;
+}
+
+.hero-portfolio::before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.29 (1).jpeg');
+}
+
+.hero-chi-siamo::before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero/hero-chi-siamo-new.jpg');
+  background-position: center 10%;
+}
+
+.hero-servizi::before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero/hero-servizi-new.jpg');
+  background-position: center 30%;
+}
+
+.hero-contatti::before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero/hero-contatti-new.jpg');
 }
 
 .hero-content {
@@ -443,10 +468,12 @@ p {
 }
 
 .service-card {
-  background: var(--color-bg);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
   border-radius: var(--radius-lg);
   padding: var(--spacing-xl);
   box-shadow: var(--shadow-md);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   transition: all var(--transition-base);
   text-align: center;
 }

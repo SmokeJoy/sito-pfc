@@ -1,22 +1,22 @@
 // PFC - Paolo Fia Cartongesso
 // Main JavaScript
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // ========================================
     // Header scroll effect
     // ========================================
     const header = document.getElementById('header');
     let lastScroll = 0;
 
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         const currentScroll = window.pageYOffset;
-        
+
         if (currentScroll > 50) {
             header.classList.add('scrolled');
         } else {
             header.classList.remove('scrolled');
         }
-        
+
         lastScroll = currentScroll;
     });
 
@@ -27,14 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const navList = document.getElementById('nav-list');
 
     if (menuToggle && navList) {
-        menuToggle.addEventListener('click', function() {
+        menuToggle.addEventListener('click', function () {
             navList.classList.toggle('active');
             menuToggle.classList.toggle('active');
         });
 
         // Close menu when clicking on a link
         navList.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', function() {
+            link.addEventListener('click', function () {
                 navList.classList.remove('active');
                 menuToggle.classList.remove('active');
             });
@@ -45,16 +45,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // Smooth scroll for anchor links
     // ========================================
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             const href = this.getAttribute('href');
             if (href === '#') return;
-            
+
             e.preventDefault();
             const target = document.querySelector(href);
             if (target) {
                 const headerHeight = header.offsetHeight;
                 const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-                
+
                 window.scrollTo({
                     top: targetPosition,
                     behavior: 'smooth'
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // ========================================
     const forms = document.querySelectorAll('form');
     forms.forEach(form => {
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', function (e) {
             const requiredFields = form.querySelectorAll('[required]');
             let isValid = true;
 
@@ -126,6 +126,47 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ========================================
+    // Dynamic Gallery Loading
+    // ========================================
+    const portfolioGrid = document.getElementById('portfolio-grid');
+
+    if (portfolioGrid) {
+        fetch('photos.json')
+            .then(response => response.json())
+            .then(photos => {
+                portfolioGrid.innerHTML = ''; // Rimuovi loader
+
+                photos.forEach(photo => {
+                    const item = document.createElement('div');
+                    item.className = 'portfolio-item';
+                    item.innerHTML = `
+                        <img src="${photo.url}" alt="${photo.title}" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h4>${photo.title}</h4>
+                            <p>${photo.description}</p>
+                        </div>
+                    `;
+
+                    // Aggiungi evento di click per il Lightbox
+                    item.addEventListener('click', function () {
+                        openLightbox(photo.url, photo.title);
+                    });
+
+                    portfolioGrid.appendChild(item);
+
+                    // Osserva per animazioni
+                    if (typeof observer !== 'undefined') {
+                        observer.observe(item);
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Errore nel caricamento della galleria:', error);
+                portfolioGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: red;">Errore nel caricamento delle foto. Riprova più tardi.</p>';
+            });
+    }
+
+    // ========================================
     // Professional Lightbox
     // ========================================
     const lightbox = document.createElement('div');
@@ -143,17 +184,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const lightboxCaption = lightbox.querySelector('.lightbox-caption');
     const lightboxClose = lightbox.querySelector('.lightbox-close');
 
+    function openLightbox(src, title) {
+        lightboxImg.src = src;
+        lightboxImg.alt = title;
+        lightboxCaption.textContent = title;
+
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Prevent scroll
+    }
+
+    // Keep the old selector for compatibility with other pages if any
     document.querySelectorAll('.portfolio-item').forEach(item => {
-        item.addEventListener('click', function() {
+        item.addEventListener('click', function () {
             const img = this.querySelector('img');
             const title = this.querySelector('h4').textContent;
-            
-            lightboxImg.src = img.src;
-            lightboxImg.alt = img.alt;
-            lightboxCaption.textContent = title;
-            
-            lightbox.classList.add('active');
-            document.body.style.overflow = 'hidden'; // Prevent scroll
+            openLightbox(img.src, title);
         });
     });
 
