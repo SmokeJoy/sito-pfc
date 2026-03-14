@@ -5,7 +5,9 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.paolofiacartongessi.it.com/sitemap.xml
+Sitemap: https://paolofiacartongessi.it.com/sitemap.xml
 
 # Blocca cartelle non necessarie
 Disallow: /docs/
+Disallow: /js/
+Disallow: /css/
