@@ -8,6 +8,5 @@ Allow: /
 Sitemap: https://paolofiacartongessi.it.com/sitemap.xml
 
 # Blocca cartelle non necessarie
+# NB: /css/ e /js/ devono restare accessibili, servono a Google per renderizzare le pagine
 Disallow: /docs/
-Disallow: /js/
-Disallow: /css/
