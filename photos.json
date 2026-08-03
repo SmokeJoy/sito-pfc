@@ -1,102 +1,322 @@
 [
-  {
-    "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.29 (1).jpeg",
-    "title": "Velette di Design",
-    "description": "Controsoffitto moderno con LED integrati"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.24.07.jpeg",
-    "title": "Parete Decorativa",
-    "description": "Design moderno con mensole integrate"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15.jpeg",
-    "title": "Controsoffitto",
-    "description": "Finiture di alta qualità"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.24.07 (1).jpeg",
-    "title": "Veletta con LED",
-    "description": "Illuminazione moderna e elegante"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.16.jpeg",
-    "title": "Pareti Divisorie",
-    "description": "Soluzioni funzionali ed estetiche"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (2).jpeg",
-    "title": "Cartongesso su misura",
-    "description": "Progettazione personalizzata"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (3).jpeg",
-    "title": "Controsoffitto decorativo",
-    "description": "Design moderno"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (1).jpeg",
-    "title": "Finiture in cartongesso",
-    "description": "Precisione artigianale"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (7).jpeg",
-    "title": "Isolamento integrato",
-    "description": "Comfort e design"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.24.55.jpeg",
-    "title": "Lavoro professionale",
-    "description": "Risultato impeccabile"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (1).jpeg",
-    "title": "Dettagli Finitura",
-    "description": "Cura minuziosa dei particolari"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (4).jpeg",
-    "title": "Pareti Moderne",
-    "description": "Linee pulite e design contemporaneo"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (5).jpeg",
-    "title": "Controsoffitti LED",
-    "description": "Integrazione perfetta dell'illuminazione"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (6).jpeg",
-    "title": "Ristrutturazione Interni",
-    "description": "Rinnoviamo i tuoi spazi"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53.jpeg",
-    "title": "Soluzioni Abitative",
-    "description": "Comfort e estetica"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (2).jpeg",
-    "title": "Design su Misura",
-    "description": "Progetti unici per ogni cliente"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (3).jpeg",
-    "title": "Velette Decorative",
-    "description": "Eleganza e stile"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (4).jpeg",
-    "title": "Isolamento Termico",
-    "description": "Efficienza energetica garantita"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (5).jpeg",
-    "title": "Pareti per Uffici",
-    "description": "Suddivisione spazi funzionale"
-  },
-  {
-    "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (6).jpeg",
-    "title": "Lavori Certificati",
-    "description": "Qualità e sicurezza"
-  }
+    {
+        "url": "images/main-bg.png",
+        "title": "Main bg",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "images/f96b0195-b9c6-44ff-bc1a-2f32ed23ee00.jpeg",
+        "title": "F96b0195 b9c6 44ff bc1a 2f32ed23ee00",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "images/c121795b-2a05-4af3-8b95-e57e1c8ac0bc.jpeg",
+        "title": "C121795b 2a05 4af3 8b95 e57e1c8ac0bc",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "images/bb09ecdd-1340-4d8e-8740-433d52bccc84.jpeg",
+        "title": "Bb09ecdd 1340 4d8e 8740 433d52bccc84",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "images/add972c4-cffe-419c-bc8d-b3f6a77d6312.jpeg",
+        "title": "Add972c4 cffe 419c bc8d b3f6a77d6312",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.51.49.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.50.33.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.39.15.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.25.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01 (8).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01 (7).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01 (6).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01 (5).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01 (4).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01 (3).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01 (2).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.01 (1).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.00.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.37.00 (1).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.34.28.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.34.28 (6).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.34.28 (5).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.34.28 (4).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.34.28 (3).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.34.28 (2).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.34.28 (1).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.29.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.29 (3).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.29 (2).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.29 (1).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (9).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (8).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (7).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (6).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (5).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (4).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (3).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (2).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (13).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (12).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (11).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (10).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/Nuove foto/WhatsApp Image 2026-02-27 at 21.31.28 (1).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.16.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (7).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (6).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (5).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (4).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (3).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (2).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.27.15 (1).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.24.55.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.24.07.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.24.07 (1).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53.jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (6).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (5).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (4).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (3).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (2).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    },
+    {
+        "url": "Foto di lavori realizzati/WhatsApp Image 2026-02-02 at 18.23.53 (1).jpeg",
+        "title": "Realizzazione PFC",
+        "description": "Dettaglio eccellenza PFC"
+    }
 ]
